@@ -6,7 +6,8 @@
 .config/*
 
 # whitelist
-!.config/vim
+!.config/karabiner
+!.config/nvim
 !.config/pt
 !.config/git
 !.config/yarn
