@@ -1,0 +1,10 @@
+.python-version
+
+.git
+cache
+temp
+tmp
+log
+
+.tern-project
+.tern-port

@@ -1,0 +1,14 @@
+*.swp
+*~
+.DS_Store
+
+.bundle/cache
+.config/*
+
+# whitelist
+!.config/vim
+!.config/pt
+!.config/git
+!.config/yarn
+.config/yarn/link
+.config/yarn/global/node_modules

@@ -1,0 +1,24 @@
+[user]
+	email = 3257272+kyohah@users.noreply.github.com
+	name = kyohah
+[merge]
+	tool = vim
+[core]
+	editor = vim
+[gui]
+	encoding = utf-8
+[color]
+	ui = auto
+  status = auto
+  diff = auto
+  branch = auto
+  interactive = auto
+  grep = auto
+[init]
+	templatedir = ~/.config/git/template
+[alias]
+  graph = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
+[ghq]
+	root = ~/dev
+[ghq "http:/plugins.svn.wordpress.org/"]
+  vcs = svn
